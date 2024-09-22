@@ -124,3 +124,6 @@ finding similar challenges faced by different entities and combining data and in
 
 finding patterns-
 using historical data to understand what happened in the past and is therefore likely to happen again.
+
+SMART Questions
+-------------------
