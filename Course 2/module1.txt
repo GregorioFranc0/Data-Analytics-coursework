@@ -127,3 +127,78 @@ using historical data to understand what happened in the past and is therefore l
 
 SMART Questions
 -------------------
+questions to avoid:
+leading questions
+
+Example: This product is too expensive, isn’t it?
+
+This is a leading question because it suggests an answer as part of the question. A better question might be, “What is your opinion of this product?”
+
+closed-ended questions
+
+Example: Were you satisfied with the customer trial?
+
+This is a closed-ended question because it doesn’t encourage people to expand on their answer. It is really easy for them to give one-word responses that aren’t very informative. A better question might be, “What did you learn about customer experience from the trial.” This encourages people to provide more detail besides “It went well.”
+
+questions that are too vague or lack context
+
+Example: Does the tool work for you?
+
+This question is too vague because there is no context. Is it about comparing the new tool to the one it replaces? You just don’t know. A better inquiry might be, “When it comes to data entry, is the new tool faster, slower, or about the same as the old tool? If faster, how much time is saved? If slower, how much time is lost?” These questions give context (data entry) and help frame responses that are measurable (time).
+
+SMART methodology
+Specific - simple, significant and focused on a single topic or a few closely related ideas.
+Is the question specific? Does it address the problem? Does it have context? Will it uncover a lot of the information you need?
+
+Measurable - can be quantified and assessed.
+Will the question give you answers that you can measure?
+
+Action-oriented - encourages change.
+Will the answers provide information that helps you devise some type of plan?
+
+Relevant - relevant questions matter, are important, and have significance to the problem you're trying to solve.
+ Is the question about the particular problem you are trying to solve?
+
+Time-bound - specify the time to be studied.
+Are the answers relevant to the specific time being studied?
+
+Fairness
+ensuring your questions don't create or reinforce bias.
+
+Questions should be open-ended. This is the best way to get responses that will help you accurately qualify or disqualify potential solutions to your specific problem. So, based on the thought process, possible SMART questions might be:
+
+On a scale of 1-10 (with 10 being the most important) how important is your car having four-wheel drive? Explain.
+
+What are the top five features you would like to see in a car package?
+
+What features, if included with four-wheel drive, would make you more inclined to buy the car?
+
+How does a car having four-wheel drive contribute to its value, in your opinion?
+
+
+Terms and definitions for Course 2, Module 1
+Action-oriented question: A question whose answers lead to change
+
+Cloud: A place to keep data online, rather than a computer hard drive
+
+Data analysis process: The six phases of ask, prepare, process, analyze, share, and act whose purpose is to gain insights that drive informed decision-making
+
+Data life cycle: The sequence of stages that data experiences, which include plan, capture, manage, analyze, archive, and destroy
+
+Leading question: A question that steers people toward a certain response
+
+Measurable question: A question whose answers can be quantified and assessed
+
+Problem types: The various problems that data analysts encounter, including categorizing things, discovering connections, finding patterns, identifying themes, making predictions, and spotting something unusual
+
+Relevant question: A question that has significance to the problem to be solved
+
+SMART methodology: A tool for determining a question’s effectiveness based on whether it is specific, measurable, action-oriented, relevant, and time-bound
+
+Specific question: A question that is simple, significant, and focused on a single topic or a few closely related ideas
+
+Structured thinking: The process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying options
+
+Time-bound question: A question that specifies a timeframe to be studied
+
+Unfair question: A question that makes assumptions or is difficult to answer honestly
