@@ -1,0 +1,93 @@
+Module 4 Notes
+-----------------------------
+
+Issue - a topic or subject to investigate
+
+Question - Designed to discover information
+
+Problem - An obstacle or complication that needs to be worked out
+
+business Task - the question or problem data analysis answers for a business
+
+Data-driven decision making - Using facts to guide business strategy
+
+Fairness - ensures that your analysis doesn't create or reinforce bias.
+the 5 whys are important here to get to the root cause of any bias.
+
+Consider all of the available data
+
+Part of your job as a data analyst is to determine what data is going to be useful for your analysis. Often there will be data that isn’t relevant to what you’re focusing on or doesn’t seem to align with your expectations. But you can’t just ignore it; it’s critical to consider all of the available data so that your analysis reflects the truth and not just your own expectations.
+
+Identify surrounding factors
+
+As you’ll learn throughout these courses, context is key for you and your stakeholders to understand the final conclusions of any analysis. Similar to considering all of the data, you also must understand surrounding factors that could influence the insights you’re gaining.
+
+Include self-reported data
+
+Self-reporting is a data collection technique where participants provide information about themselves. Self-reported data can be a great way to introduce fairness in your data collection process. People bring conscious and unconscious bias to their observations about the world, including about other people. Using self-reporting methods to collect data can help avoid these observer biases. Additionally, separating self-reported data from other data you collect provides important context to your conclusions!
+
+Use oversampling effectively
+
+When collecting data about a population, it’s important to be aware of the actual makeup of that population. Sometimes, oversampling can help you represent groups in that population that otherwise wouldn’t be represented fairly. Oversampling is the process of increasing the sample size of nondominant groups in a population. This can help you better represent them and address imbalanced datasets.
+
+Think about fairness from beginning to end
+
+To ensure that your analysis and final conclusions are fair, be sure to consider fairness from the earliest stages of a project to when you act on the data insights. This means that data collection, cleaning, processing, and analysis are all performed with fairness in mind.
+
+Key takeaways
+As a data professional, you will need to ensure you always consider fairness. This will allow you to avoid creating or reinforcing bias or accidentally drawing misleading conclusions. Using these best practices can help guide your analysis and make you a better data professional!
+
+Data analyst roles: How to find where I want to work
+What is my preferred industry?
+Music? Food? Healthcare? Finance? Marketing? Tech?
+relocate? work from home?
+
+do I work best in a team or on my own?
+what am I passionate about?
+
+The data analyst role is one of many job titles that contain the word “analyst.”
+
+To name a few others that sound similar but may not be the same role:
+
+Business analyst—analyzes data to help businesses improve processes, products, or services
+
+Data analytics consultant—analyzes the systems and models for using data
+
+Data engineer—prepares and integrates data from different sources for analytical use
+
+Data scientist—uses expert skills in technology and social science to find trends through data analysis
+
+Data specialist—organizes or converts data for use in databases or software systems
+
+Operations analyst—analyzes data to assess the performance of business operations and workflows
+
+Marketing analyst—analyzes market conditions to assess the potential sales of products and services
+
+HR/payroll analyst—analyzes payroll data for inefficiencies and errors
+
+Financial analyst—analyzes financial status by collecting, monitoring, and reviewing data
+
+Risk analyst—analyzes financial documents, economic conditions, and client data to help companies determine the level of risk involved in making a particular business decision
+
+Healthcare analyst—analyzes medical data to improve the business aspect of hospitals and medical facilities
+
+Interview Best Practices
+---------------------------
+
+Think about a time where you've used data to solve a problem, whether it's in your professional or personal projects.
+
+Increase your professional network.
+
+Have your LinkedIn updated, along with websites like GitHub where you can showcase a lot of the data analyst projects you've done.
+
+Prepare questions for the interviewer.
+Be specific.
+
+Sometimes there is no right answer, and a lot of times interviewers are looking to see your thought process and the way you get to your solution.
+
+Take the next step after applying.
+Look for the recruiter, look for the hiring manager online. See if you can reach out to them and setp up a coffee chat or send them your resume directly.
+
+
+Key takeaways
+Explore data analyst job descriptions and industry-specific analyst roles. You will start to get a better sense of the different data analyst jobs out there and which types of roles you’re most interested to go after.

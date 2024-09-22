@@ -1,0 +1,10 @@
+Using the Command Line
+-----------------------------------
+
+to change to the root directory - cd /
+to list the contents of a directory - ls
+to go back to the home directory - cd ~ or cd
+to make a new directory - mkdir directory_name or directory-name
+to refer to names of files or dirs that have special characters, surround in quotes ("")
+to use file explorer in command line, use explorer.exe .
+use mv to rename files - mv oldfilename.extension newfilename.extension

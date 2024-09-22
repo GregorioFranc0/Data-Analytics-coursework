@@ -1,0 +1,155 @@
+Module 2 notes
+------------------------------------
+
+Data analysis process:
+ASK
+PREPARE
+PROCESS
+ANALYZE
+SHARE
+ACT
+
+Data analysis tools: Spreadsheets, Databases, Query languages, and vizualization software
+
+you're currently creating, storing and maintaining data while taking these notes.
+
+Data life cycle-
+PLAN - what data is needed, how it will be managed, who is responsible, optimal outcomes
+CAPTURE - collect from a variety of sources and stored. sometimes outside sources, sometimes internal
+MANAGE - how and where it's stored, how we care for it, tools to keep it safe and secure, and how it's maintained properly
+ANALYZE - used to solve problems, make great decisions and support business goals.
+ARCHIVE - storing date where its still available, but may not be used again.
+DESTROY - data erasure. use secure erasure software, and if physical, safely dispose.
+
+Plan: Decide what kind of data is needed, how it will be managed, and who will be responsible for it.
+
+Capture: Collect or bring in data from a variety of different sources.
+
+Manage: Care for and maintain the data. This includes determining how and where it is stored and the tools used to do so.
+
+Analyze: Use the data to solve problems, make decisions, and support business goals.
+
+Archive: Keep relevant data stored for long-term and future reference.
+
+Destroy: Remove data from storage and delete any shared copies of the data.
+
+
+database - a collection of data stored in a computer system.
+
+Understanding the importance of the data life cycle will set you up for success as a data analyst.
+Individual stages in the data life cycle will vary from company to company or by industry or sector.
+Historical data is important to both the U.S. Fish and Wildlife Service and the USGS, so their data life cycle focuses on archiving and backing up data.
+
+Harvard's interests are in research and teaching, so its data life cycle includes visualization and interpretation even though these are more often associated with a data analysis life cycle.
+The HBS data life cycle also doesn't call out a stage for purging or destroying data.
+
+In contrast, the data life cycle for finance clearly identifies archive and purge stages. To sum it up, although data life cycles vary, one data management principle is universal: Govern how data is handled so that it is accurate, secure, and available to meet your organization's needs.
+
+
+Phases of Data Analysis:
+The process of analyzing data
+
+ASK - define the problem and fully understand expectations
+stakeholders - people who have invested time and resources in a project and are interested in the outcomes
+determine who stakeholders are
+communicating with stakeholders is key
+five whys are helpful here
+ask all the right questions to better understand  what the needs are from analysis
+what is the problem we're trying to solve?
+what are we hoping to learn from it?
+what is the purpose of this analysis?
+
+
+PREPARE - collect and store data to use for analysis
+what type of data do we need?
+we need to be thinking about the type of data we need in order to answer the questions that we've set out to answer, base on what we learned when we asked the right questions.
+data and results should always be objective and unbiased
+any decisions made fro manalysis must be based on facts and be fair and impartial
+
+PROCESS - find and eliminate errors and inaccuracies
+clean data,
+transforming it into more useful formats,
+combining datasets to make information more complete,
+removing outliers(data that can skew information)
+check the data to make sure it's complete and correct. this phase is all about details.
+gain strategies for verifying and sharing your data cleansing with stakeholders.
+
+ANALYZE - use tools to transform and organize information to draw useful conclusions, make predictions and drive informed decision-making.
+Spreadsheets
+SQL - Structured Query Language
+R - tool for data manipulation, calculation and visualization.
+
+SHARE - interpret results and share them with others to help stakeholders make effective data-driven solutions.
+
+visualization is essential to getting others to understand what your data is telling you.
+with the right visuals, facts and figures become much easier to ee and complex concepts become easier to understand.
+
+ACT - take all insights provided and put them to work in order to solve the original problem.
+
+case study ideas? music, games, etc?
+
+Analyst Tools-
+
+Spreadsheets-
+microsoft excel
+google Sheets
+
+Spreadsheets structure data in a meaningful way by letting you
+
+Collect, store, organize, and sort information
+
+Identify patterns and piece the data together in a way that works for each specific data project
+
+Create excellent data visualizations, like graphs and charts.
+
+Stores, organizes and sorts data
+the usefulness of your data depends on how well it's structured.
+
+Formula - set of instructions that performs a specific calculation using the data in a spreadsheet
+perform basic and complex mathematical functions
+
+Function - preset command that automatically performs a specific process or task using the data in a spreadsheet
+
+Query Language -
+computer programming language that allows you to retrieve and manipulate data from a database
+SQL - most widely used query language. easy to understand and works well with all kinds of databases. been used since the 70s i think.
+INSERT
+DELETE
+SELECT
+UPDATE
+
+Query languages
+
+Allow analysts to isolate specific information from a database(s)
+
+Make it easier for you to learn and understand the requests made to databases
+
+Allow analysts to select, create, add, or download data from a database for analysis
+
+Data visualization -
+The graphical representation of information.
+Graphs, maps and tables
+they help analysts communicate their insights to others in an effective and compelling way.
+popular visualization tools-
+Tableau - easy to understand visuals
+Looker - create visuals based on the results of a query
+
+These tools:
+
+Turn complex numbers into a story that people can understand
+
+Help stakeholders come up with conclusions that lead to informed decisions and effective business strategies
+
+Have multiple features
+
+- Tableau's simple drag-and-drop feature lets users create interactive graphs in dashboards and
+worksheets
+
+- Looker communicates directly with a database, allowing you to connect your data right to the visual
+tool you choose
+
+Key Takeaways
+
+You have a lot of tools as a data analyst. This is a first glance at the possibilities, and you will explore many of these tools in-depth throughout this program.
+
+The choice of data analysis tools depends on the specific task at hand. Spreadsheets are suitable for organizing, cleaning, and analyzing small to medium datasets. Databases are ideal for storing, managing, and analyzing large and complex datasets. Data analysts often use a combination of spreadsheets, databases, and programming languages to effectively handle a wide range of data analysis tasks.

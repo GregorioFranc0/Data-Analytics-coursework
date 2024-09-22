@@ -1,0 +1,184 @@
+Module 3 Notes
+-----------------------
+
+Exploring Core Data tools
+
+Formula - set of instructions that performs a specific action using the data in a spreadsheet
+
+use the equal sign (=) to start a formula within a spreadsheet.
+
+SQL can be used to store, organize and analyze data.
+
+Query - request for data or information fro ma database
+
+Basic query structure:
+SELECT [choose the columns you want]
+* (ALL) means all data
+FROM [from the appropriate table]
+WHERE [a certain condition is met]
+
+Every programming language, including SQL, follows a unique set of guidelines known as syntax.
+Syntax is the predetermined structure of a language that includes all required words, symbols, and punctuation, as well as their proper placement.
+As soon as you enter your search criteria using the correct syntax, the query starts working to pull the data you’ve requested from the target database.
+
+The syntax of every SQL query is the same:
+
+Use SELECT to choose the columns you want to return.
+
+Use FROM to choose the tables where the columns you want are located.
+
+Use WHERE to filter for certain information.
+
+Here is how a simple query would appear in BigQuery, a data warehouse on the Google Cloud Platform.
+
+SELECT first_name
+FROM customer_data.customer_name
+WHERE first_name = 'Tony'
+
+Let's break it down more.
+
+SELECT the column named first_name
+
+FROM a table named customer_name (in a dataset named customer_data)
+(The dataset name is always followed by a dot, and then the table name.)
+
+But only return the data WHERE the first_name is 'Tony'
+
+If you are requesting multiple data fields from a table, you need to include these columns in your SELECT command. Each column is separated by a comma as shown below:
+SELECT
+	ColumnA,
+	ColumnB,
+	ColumnC
+FROM
+	Table where the data lives
+WHERE
+	Certain condition is met
+
+Here is an example of how it would appear in BigQuery:
+SELECT
+	customer_id,
+	first_name,
+	last_name
+FROM
+	customer_data.customer_name
+WHERE
+	first_name = 'Tony'
+
+
+In general, it is a more efficient use of resources to select only the columns that you need.
+For example, it makes sense to select more columns if you will actually use the additional fields in your WHERE clause.
+If you have multiple conditions in your WHERE clause, they may be written like this:
+SELECT
+ColumnA,
+ColumnB,
+ColumnC
+FROM
+	Table where the data lives
+WHERE
+	Condition 1
+	AND Condition 2
+	AND Condition 3
+
+Notice that unlike the SELECT command that uses a comma to separate fields / variables / parameters, the WHERE command uses the AND statement to connect conditions.
+As you become a more advanced writer of queries, you will make use of other connectors / operators such as OR and NOT.
+
+Here is a BigQuery example with multiple fields used in a WHERE clause:
+SELECT
+	customer_id,
+	first_name,
+	last_name
+FROM
+	customer_data.customer_name
+WHERE
+	customer_id > 0
+	AND first_name = 'Tony'
+	AND last_name = 'Magnolia'
+
+Key takeaways
+The SELECT, FROM, and WHERE clauses are the essential building blocks of SQL queries. Queries with multiple fields will become simpler after you practice writing your own SQL queries later in the program.
+
+For example, if you are looking for a specific customer with the last name Chavez, the WHERE clause would be:
+
+WHERE field1 = 'Chavez'
+
+However, if you are looking for all customers with a last name that begins with the letters “Ch," the WHERE clause would be:
+
+WHERE field1 LIKE 'Ch%'
+
+You can conclude that the LIKE clause is very powerful because it allows you to tell the database to look for a certain pattern! The percent sign % is used as a wildcard to match one or more characters. In the example above, both Chavez and Chen would be returned. Note that in some databases an asterisk * is used as the wildcard instead of a percent sign %.
+
+Can you use  SELECT * ?
+
+In the example, if you replace SELECT field1 with SELECT * , you would be selecting all of the columns in the table instead of the field1 column only. From a syntax point of view, it is a correct SQL statement, but you should use the asterisk * sparingly and with caution.  Depending on how many columns a table has, you could be selecting a tremendous amount of data. Selecting too much data can cause a query to run slowly.
+
+Some tables aren’t designed with descriptive enough naming conventions. In the example, field1 was the column for a customer’s last name, but you wouldn’t know it by the name. A better name would have been something such as last_name. In these cases, you can place comments alongside your SQL to help you remember what the name represents. Comments are text placed between certain characters, /* and */, or after two dashes -- as shown below.
+
+SELECT
+	field1 /* this is the last name column */
+FROM
+	table -- this is the customer data table
+WHERE
+	field1 LIKE 'Ch%';
+
+Comments can also be added outside of a statement as well as within a statement. You can use this flexibility to provide an overall description of what you are going to do, step-by-step notes about how you achieve it, and why you set different parameters/conditions.
+
+-- This is an important query used later to join with the accounts table
+SELECT
+ 		rowkey,  -- key used to join with account_id
+Info.date,  -- date is in string format YYYY-MM-DD HH:MM:SS
+Info.code  -- e.g., 'pub-###'
+
+FROM  Publishers
+
+Here is an example of how comments could be written in BigQuery:
+
+-- Pull basic information from the customer table
+SELECT
+	customer_id, --main ID used to join with customer_addresss
+	first_name, --customer's first name from loyalty program
+	last_name --customer's last name
+FROM
+	customer_data.customer_name
+
+    You can use # in place of -- in the above query, but # is not recognized in all SQL versions; for example, MySQL doesn’t recognize #.  You can also place comments between /* and */ if the database you are using supports it.
+
+Aliases
+You can also make it easier on yourself by assigning a new name or alias to the column or table names to make them easier to work with (and avoid the need for comments). This is done with a SQL AS clause. In the example below, aliases are used for both a table name and a column. Within the database, the table is called actual_table_name and the column in that table is called actual_column_name. They are aliased as my_table_alias and my_column_alias, respectively. These aliases are good for the duration of the query only. An alias doesn’t change the actual name of a column or table in the database.
+
+SELECT
+	my_table_alias.actual_column_name AS my_column_alias
+FROM
+	actual_table_name AS my_table_alias
+
+<> means "does not equal" in SQL syntax.
+Example:
+SELECT
+	*
+FROM
+	Employee
+WHERE
+	jobCode <> 'INT'
+      AND salary <= 30000;
+
+Key takeaways
+
+SQL queries use SELECT, FROM, and WHERE to specify the data to be returned from the query. Capitalization, indentation, and semicolons are useful for making your SQL queries easier to read. In addition, comments can be added to explain queries to others. As you progress through this course, you will continue discovering many ways in which SQL can be a very powerful tool for retrieving, analyzing, and interpreting data.
+
+
+Data Visualization
+---------------------------
+There are many different tools you can use for data visualization.
+
+You can use the visualizations tools in your spreadsheet to create simple visualizations such as line and bar charts.
+
+You can use more advanced tools such as Tableau that allow you to integrate data into dashboard-style visualizations.
+
+If you’re working with the programming language R you can use the visualization tools in RStudio.
+
+Your choice of visualization will be driven by a variety of drivers including the size of your data, the process you used for analyzing your data (spreadsheet, or databases/queries, or programming languages). For now, just consider the basics.
+
+Terms and definitions for Course 1, Module 3
+
+Attribute: A characteristic or quality of data used to label a column in a table
+
+Observation: The attributes that describe a piece of data contained in a row of a table

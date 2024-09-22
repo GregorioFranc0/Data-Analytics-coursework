@@ -1,0 +1,74 @@
+Module 1 notes
+---------------------------------------
+
+The six steps of the data analysis process:
+-ASK
+-PREPARE
+-PROCESS
+-ANALYZE
+-SHARE
+-ACT
+
+Great analysts know how to respect both their data and the people who provide it.
+
+Collecting and using data ethically is one of the responsibilities of data analysts.
+
+Interested in People Analytics?
+
+Difference between data scientists and data analysts:
+
+Data Science - creating new ways of modeling and understanding the unknown by using raw data.
+
+Data analysis is the collection, transformation, and organization of data in order to draw conclusions,
+make predictions, and drive informed decision-making.
+
+Data analytics is the science of data.
+
+Data-driven decision making - Using facts to guide business strategy
+-figure out the business need
+
+Data + business knowledge = mystery solved
+
+Blending data with business knowledge, plus maybe a touch of gut instinct, will be a common part of your process as a junior data analyst. The key is figuring out the exact mix for each particular project. A lot of times, it will depend on the goals of your analysis. That is why analysts often ask, “How do I define success for this project?”
+
+What kind of results are needed?
+
+Who will be informed?
+
+Am I answering the question being asked?
+
+How quickly does a decision need to be made?
+
+Data ecosystems
+The various elements that interact with one another in order to produce, manage, store, organize, analyze, and share data.
+
+5 Analytical Skills
+Curiosity
+Understanding Context
+Having a technical mindset
+Data design
+Data strategy
+
+Analytical Thinking
+Identifying and defining a problem and then solving it by using data in an organized, step-by-step manner.
+
+5 keys to analytical thinking:
+Visualization - the graphical representation of information
+Strategy
+Problem-orientation
+Correlation
+Big-picture and detail-oriented thinking
+
+What is the root cause of a problem?
+
+the Five Whys
+ask why five times to reveal the root cause.
+
+Where are the gaps in our process?
+
+Gap analysis:
+A method for examining and evaluating how a process works currently in order to get where you want to be in the future.
+
+What did we not consider before?
+
+A quartile divides data points into 4 equal parts.
