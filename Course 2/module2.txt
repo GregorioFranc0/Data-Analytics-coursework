@@ -1,0 +1,189 @@
+Course 2, module 2 notes
+------------------------------
+how data empowers decisions
+
+data is a collection of facts
+
+data analysis can help us make more informed decisions.
+
+data-inspired decision making explores different data sources to find out what they have in common.
+
+Algorithm - a process or set of rules to be followed for a specific task
+
+A data analytics professional’s job is to provide the data necessary to inform key decisions. They also need to frame their analysis in a way that helps business leaders make the best possible decisions.
+
+There’s a difference between making a decision with incomplete data and making a decision with a small amount of data. You learned that making a decision with incomplete data is dangerous. But sometimes accurate data from a small test can help you make a good decision. Stay tuned: You’ll learn about how much data to collect later in the program.
+
+Key takeaways
+As a data analyst, you’ll rarely need to consider, “Am I being data-driven or data-inspired?” It’s helpful to have some context for these two approaches, though your own skills and knowledge will be the most important parts of any analysis project. So, keep a data-driven mindset and ask lots of questions. Experiment with many different possibilities. And use both logic and creativity along the way. Using this approach, you’ll  be prepared to interpret your data with the highest levels of care and accuracy.
+
+Quantitative data - specific and objective measures of numerical facts.
+the what, how many, and how often about a problem.
+things you can measure.
+
+Qualitative data -subjective or explanatory measures of qualities and characteristics.
+things that can't be measured with numerical data.
+why questions
+
+Key takeaways
+Data analysts will generally use both types of data in their work. Usually, qualitative data can help analysts better understand their quantitative data by providing a reason or more thorough explanation. In other words, quantitative data generally gives you the what, and qualitative data generally gives you the why. By using both quantitative and qualitative data, you can learn when people like to go to the movies and why they chose the theater. Maybe they really like the reclining chairs, so your manager can purchase more recliners. Maybe the theater is the only one that serves root beer. Maybe a later show time gives them more time to drive to the theater from where popular restaurants are located. Maybe they go to matinees because they have kids and want to save money. You wouldn’t have discovered this information by analyzing only the quantitative data for attendance, profit, and showtimes.
+
+
+Reports and Dashboards - useful for data visualization
+
+Report - static collection of data given to stakeholders periodically
+Pros -
+    great for giving snapshots of high-level historical data for an organization
+    easy to design
+    pre-cleaned and sorted data
+Cons -
+    Continual maintenance needed
+    less visually appealing
+    static(the data does not change once it's collected)
+
+Dashboard - monitors live, incoming data
+Pros-
+    Dynamic, automatic and interactive
+    More stakeholder access
+    Low maintenance
+Cons
+    Labor-intensive design
+    can be confusing
+    potentially uncleaned data
+
+Pivot Table - a data summarization tool that is used in data processing. Pivot tables are used to summarize, sort, reorganize, group, count, total or average data stored in a database.
+insert - pivot table to add one in a spreadsheet.
+
+Metric- single, quantifiable type of data that can be used for measurement.
+
+revenue - # of sales X sales price
+ROI - return on investment
+net profit over time and cost of investment
+
+metrics can be used to help calculate customer retention rates, or a company's ability to keep its customers over time.
+
+Metric Goal - a measurable goal set by a company and evaluated using metrics
+
+Spreadsheets
+Both Sheets and Excel are go-to choices for creating static charts and graphs. They offer basic data visualization capabilities that are often enough for simple visualizations. In addition, you can use them to  clean, sort, and filter data. And both offer a range of chart types, graphing tools, and pivot tables for creating effective data visualizations. These charts are easy to manage; they update when the source data is updated, so they don’t require much manual intervention once implemented.
+
+Tableau
+Tableau is used to create powerful and interactive visualizations, making it an excellent choice for data visualizations such as live dashboards. Tableau also makes it easy to create charts, graphs, and dashboards in a drag-and-drop interface. The application  supports a wide range of data sources and provides advanced analytics capabilities. These features allow for in-depth exploration of data trends and patterns.
+
+Key takeaways
+There are many visualization tools you will have the opportunity to use as a data professional. Different tools have different advantages and disadvantages. Although Tableau ultimately has more power than a basic spreadsheet application, it’s most often used for specific cases and to work with large datasets. Don’t underestimate how much you can do with spreadsheets or how powerful interconnectivity between apps can be!
+
+Most of the time, especially for something like a quick report, you’re more likely to reach into your toolkit for your spreadsheet app of choice. But your data career will definitely benefit from Tableau, so as you progress take advantage of opportunities to work with it. With so many different data analysis situations, familiarity with all of these tools will help you know which is the best for each situation.
+
+Create a dashboard
+Here’s a process you can follow to create a dashboard, whether in Tableau or another visualization tool:
+
+1. Identify the stakeholders who need to see the data and how they will use it
+Begin by asking effective questions. Check out this
+dashboard requirements gathering worksheet
+ to explore a wide range of good questions you can use to identify relevant stakeholders and their data needs. This is a great resource to help guide you through this process again and again.
+
+2. Design the dashboard (what should be displayed)
+Use these tips to help make your dashboard design clear and easy to follow:
+
+Use a clear header to label the information.
+
+Add short text descriptions to each visualization.
+
+Show the most important information at the top.
+
+3. Create mockups if desired
+A mockup is a simple draft of a visualization used for planning a dashboard and evaluating its progress. This is optional, but a lot of data analysts like to sketch out their dashboards before creating them.
+
+4. Select the visualizations
+You have a lot of options here. Which visualizations you select depends on the data story you are telling. If you need to show a change in values over time, line charts or bar graphs might be the best choice. If your goal is to show how each part contributes to the whole amount being reported, a pie or donut chart is probably a better choice.
+
+5. Create filters as needed
+Filters show certain data while hiding the rest of the data in a dashboard. This can be a big help to identify patterns while keeping the original data intact. It’s common for data analysts to use and share the same dashboard, but manage their part of it with a filter. To dig deeper into filters and find an example of filters in action, visit Tableau’s page on
+Filter Actions
+. This is a useful resource to save and come back to when you start practicing using filters in Tableau on your own.
+
+Key takeaways
+Just like how the dashboard on an airplane shows the pilot their flight path, your dashboard does the same for your stakeholders. It helps them navigate the path of a project inside the data. If you add clear markers and highlight important points on your dashboard, users will understand where your data story is headed. Then, you can work together to make sure the business gets where it needs to go.
+
+Mathematical thinking
+--------------------------
+Small data
+    specific
+    short time period
+    day to day decisions
+    spreadsheets
+    Usually organized and analyzed in spreadsheets
+    Likely to be used by small and midsize businesses
+    Usually already a manageable size for analysis
+    Simple to collect, store, manage, sort, and visually represent
+Big data
+    large and less specific
+    long time period
+    big decisions
+    SQL
+    Usually kept in a database and queried
+    Likely to be used by large organizations
+    Takes a lot of effort to collect, store, manage, sort, and visually represent
+    Usually needs to be broken into smaller pieces in order to be organized and analyzed effectively for decision-making
+
+Challenges and benefits
+Here are some challenges you might face when working with big data:
+
+A lot of organizations deal with data overload and way too much unimportant or irrelevant information.
+
+Important data can be hidden deep down with all of the non-important data, which makes it harder to find and use. This can lead to slower and more inefficient decision-making time frames.
+
+The data you need isn’t always easily accessible.
+
+Current technology tools and solutions still struggle to provide measurable and reportable data. This can lead to unfair algorithmic bias.
+
+There are gaps in many big data business solutions.
+
+Now for the good news! Here are some benefits that come with big data:
+
+When large amounts of data can be stored and analyzed, it can help companies identify more efficient ways of doing business and save a lot of time and money.
+
+Big data helps organizations spot the trends of customer buying patterns and satisfaction levels, which can help them create new products and solutions that will make customers happy.
+
+By analyzing big data, businesses get a much better understanding of current market conditions, which can help them stay ahead of the competition.
+
+As in our earlier social media example, big data helps companies keep track of their online presence—especially feedback, both good and bad, from customers. This gives them the information they need to improve and protect their brand.
+
+the 4 V words for big data
+volume -amount of data
+variety -different kinds of data
+velocity -how fast the data can be processed
+veracity -quality and reliability of the data
+
+
+Terms and definitions for Course 2, Module 2
+Algorithm: A process or set of rules followed for a specific task
+
+Big data: Large, complex datasets typically involving long periods of time, which enable data analysts to address far-reaching business problems
+
+Dashboard: A tool that monitors live, incoming data
+
+Data-inspired decision-making: The process of exploring different data sources to find out what they have in common
+
+Metric: A single, quantifiable type of data that is used for measurement
+
+Metric goal: A measurable goal set by a company and evaluated using metrics
+
+Pivot chart: A chart created from the fields in a pivot table
+
+Pivot table: A data summarization tool used to sort, reorganize, group, count, total, or average data
+
+Problem types: The various problems that data analysts encounter, including categorizing things, discovering connections, finding patterns, identifying themes, making predictions, and spotting something unusual
+
+Qualitative data: A subjective and explanatory measure of a quality or characteristic
+
+Quantitative data: A specific and objective measure, such as a number, quantity, or range
+
+Report: A static collection of data periodically given to stakeholders
+
+Return on investment (ROI): A formula that uses the metrics of investment and profit to evaluate the success of an investment
+
+Revenue: The total amount of income generated by the sale of goods or services
+
+Small data: Small, specific data points typically involving a short period of time, which are useful for making day-to-day decisions
