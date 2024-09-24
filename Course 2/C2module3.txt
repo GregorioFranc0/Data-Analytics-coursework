@@ -73,3 +73,51 @@ In a lot of spreadsheet applications, you can press the F2 (or Enter) key to hig
 
 Combining with functions
 COUNTIF() is a formula and a function. This means the function runs based on criteria set by the formula. In this case, COUNT is the formula; it will be executed IF the conditions you create are true. For example, you could use =COUNTIF(A1:A16, “7”) to count only the cells that contained the number 7. Combining formulas and functions allows you to do more work with a single command.
+
+delimiter - a comma (,) used to divide cell ranges in a formula
+
+if trying to divide by zero, try this formula to avoid a DIV error: =iferror(B4/A4, "Not Applicable")
+
+#N/A error - dfata in a formula cant be found by the spreadsheet.
+=VLOOKUP finds things in a list and will perform a calculation
+there could be an N/A error if the information in the VLOOKUP function does not exist in the spreadsheet or there is no match.
+check spelling or plural case here.
+
+#NAME? error - a formula or function name isn't understood
+if this appears, check spelling and proper syntax of the function or formula you are using.
+
+#NUM error - a formula or function calculation can't be performed as specified.
+
+=DATEDIF function is used to calculate dates
+start date is in first, then end date, followed by
+example: =DATEDIF(B2,C2, "M")
+"M" denotes that we are calculating months
+
+if the start date is after or the same day as an end date, the DATEDIF function will not work.
+
+#VALUE! error - a general error that could indicate a problem with a formula or referenced cells.
+could be an issue where a name was put in a cell that is supposed to hold number information. this would make any number calculation impossible.
+
+#REF! error - a formula is referencing a cell that is no longer valid or has been deleted.
+
+if you are referencing cells that have been deleted, simply change the formula to no longer include that cell.
+
+you can avoid this error by using the SUM function for a range of cells instead of manually adding each cell into the function by direct reference.
+
+here are a few best practices and helpful tips. These strategies will help you avoid spreadsheet errors to begin with, making your life in analytics a whole lot less stressful:
+
+Filter data to make your spreadsheet less complex and busy.
+
+Use and freeze headers so you know what is in each column, even when scrolling.
+
+When multiplying numbers, use an asterisk (*) not an X.
+
+Start every formula and function with an equal sign (=).
+
+Whenever you use an open parenthesis, make sure there is a closed parenthesis on the other end to match.
+
+Change the font to something easy to read.
+
+Set the border colors to white so that you are working in a blank sheet.
+
+Create a tab with just the raw data, and a separate tab with just the data you need.
