@@ -79,6 +79,7 @@ delimiter - a comma (,) used to divide cell ranges in a formula
 if trying to divide by zero, try this formula to avoid a DIV error: =iferror(B4/A4, "Not Applicable")
 
 #N/A error - dfata in a formula cant be found by the spreadsheet.
+
 =VLOOKUP finds things in a list and will perform a calculation
 there could be an N/A error if the information in the VLOOKUP function does not exist in the spreadsheet or there is no match.
 check spelling or plural case here.
@@ -97,6 +98,8 @@ if the start date is after or the same day as an end date, the DATEDIF function 
 
 #VALUE! error - a general error that could indicate a problem with a formula or referenced cells.
 could be an issue where a name was put in a cell that is supposed to hold number information. this would make any number calculation impossible.
+
+The error message ERROR (also called a parsing error) will appear when a formula cannot be interpreted as it is written. The DIV error message will appear when a formula is trying to divide a value in a cell by zero or by an empty cell.
 
 #REF! error - a formula is referencing a cell that is no longer valid or has been deleted.
 
@@ -121,3 +124,34 @@ Change the font to something easy to read.
 Set the border colors to white so that you are working in a blank sheet.
 
 Create a tab with just the raw data, and a separate tab with just the data you need.
+
+
+Note: The colon (:) between B2 and E2 in the formula indicates that you are specifying a range. In this case, it's the range of cells from B2 to E2. The SUM function will add up the values in these cells to calculate the total sales for the specified time frame.
+
+
+Formulas
+----------------------
+function - preset command that automatically performs a specific process or task using data
+
+SUM
+MIN
+MAX
+(e2-d2)/d2 - average
+
+
+Difference between formulas and functions
+A formula is a set of instructions used to perform a calculation using the data in a spreadsheet.
+
+A function is a preset command that automatically performs a specific process or task using the data in a spreadsheet.
+
+
+Relative, absolute, and mixed references
+Relative references (cells referenced without a dollar sign, like A2) will change when you copy and paste the function into a different cell. With relative references, the location of the cell that contains the function determines the cells used by the function.
+
+Absolute references (cells fully referenced with a dollar sign, like $A$2) will not change when you copy and paste the function into a different cell. With absolute references, the cells referenced always remain the same.
+
+Mixed references (cells partially referenced with a dollar sign, like $A2 or A$2) will change when you copy and paste the function into a different cell. With mixed references, the location of the cell that contains the function determines the cells used by the function, but only the row or column is relative (not both).
+
+In spreadsheets, you can press the F4 key to toggle between relative, absolute, and mixed references in a function. Click the cell containing the function, highlight the referenced cells in the formula bar, and then press F4 to toggle between and select relative, absolute, or mixed referencing.
+
+COUNTIF is an example of a function that returns a value based on a condition that the data range is evaluated for. The function counts the number of cells that meet the criteria. For example, in an expense spreadsheet, use COUNTIF to count the number of cells that contain a reimbursement for "airfare."
